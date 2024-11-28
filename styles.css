@@ -1,0 +1,46 @@
+.container{
+font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header, main, footer {
+            border: 2px solid #000;
+            margin: 10px;
+            padding: 10px;
+            background-color: #f0f8ff;
+        }
+        nav, #content, aside {
+            border: 2px dashed #000;
+            margin: 10px;
+            padding: 10px;
+        }
+        article {
+            border: 2px dashed #000;
+            margin: 10px;
+            padding: 10px;
+        }
+        
+        #content {
+            display: flex;
+        }
+
+        #content > div {
+            flex: 1;
+        }
+        
+        aside {
+            flex: 0 0 30%;
+        }
+h1{
+    background-color: aqua;
+    text-align: center;
+}
+h2{
+    background-color: aquamarine;
+    text-align: center;
+}
+footer{
+    background-color: beige;
+    text-shadow: justify;
+}
